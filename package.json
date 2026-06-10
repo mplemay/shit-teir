@@ -44,6 +44,8 @@
     "build": "vite build",
     "dev": "vite dev --port 3000",
     "lint": "prek run --all-files",
+    "oxfmt": "oxfmt",
+    "oxlint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run"
   },
