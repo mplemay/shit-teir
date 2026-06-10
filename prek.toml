@@ -1,0 +1,68 @@
+# Configuration file for `prek`, a git hook framework written in Rust.
+# See https://prek.j178.dev for more information.
+#:schema https://www.schemastore.org/prek.json
+
+exclude = { glob = [".agents/**", "components/ui/**"] }
+
+[[repos]]
+repo = "https://github.com/pre-commit/pre-commit-hooks"
+rev = "v6.0.0"
+hooks = [
+  { id = "trailing-whitespace" },
+  { id = "end-of-file-fixer" },
+  { id = "check-yaml" },
+  { id = "check-added-large-files" },
+]
+
+[[repos]]
+repo = "builtin"
+hooks = [
+  { id = "check-toml" },
+  { id = "check-json" },
+  { id = "check-merge-conflict" },
+  { id = "detect-private-key" },
+  {
+    id = "pretty-format-json",
+    args = ["--autofix", "--no-ensure-ascii"],
+  },
+]
+
+[[repos]]
+repo = "local"
+hooks = [
+  {
+    id = "oxlint",
+    name = "oxlint",
+    language = "system",
+    entry = "bun",
+    args = ["run", "oxlint"],
+    types_or = ["javascript", "jsx", "ts", "tsx"]
+  },
+  {
+    id = "oxfmt",
+    name = "oxfmt",
+    language = "system",
+    require_serial = true,
+    entry = "bun",
+    args = ["run", "oxfmt"],
+    types_or = ["javascript", "jsx", "ts", "tsx"]
+  },
+  {
+    id = "rumdl-fmt",
+    name = "rumdl fmt",
+    language = "system",
+    require_serial = true,
+    entry = "bun",
+    args = ["run", "rumdl", "fmt"],
+    types = ["markdown"],
+  },
+  {
+    id = "rumdl-check",
+    name = "rumdl check",
+    language = "system",
+    require_serial = true,
+    entry = "bun",
+    args = ["run", "rumdl", "check"],
+    types = ["markdown"],
+  },
+]
