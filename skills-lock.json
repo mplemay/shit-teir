@@ -1,0 +1,187 @@
+{
+  "skills": {
+    "ai-sdk": {
+      "computedHash": "2249889eb47ef0f61c4dba4cf2afe01c1c8dd793bb4c24230347c1ab909bb7dd",
+      "skillPath": "skills/use-ai-sdk/SKILL.md",
+      "source": "vercel/ai",
+      "sourceType": "github"
+    },
+    "better-auth-best-practices": {
+      "computedHash": "a4c830509e85557b59339d8d93a4e243e9e59c686e7678854d39230e12c2a6dc",
+      "skillPath": "better-auth/best-practices/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
+    },
+    "better-auth-security-best-practices": {
+      "computedHash": "5717187bba9c22030c7174c74012f01c359f21e2ce87e0eb80e24244d8b8c915",
+      "skillPath": "security/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
+    },
+    "create-auth-skill": {
+      "computedHash": "31c027d02dbf1faa37f58191f574b9443143042fb2b684fe32df53ab0270487c",
+      "skillPath": "better-auth/create-auth/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
+    },
+    "devtools-app-setup": {
+      "computedHash": "0bc14bf17c504669daba30e8a5407b340fe26c7bcd25e987971e3812fae72343",
+      "source": "@tanstack/devtools",
+      "sourceType": "node_modules"
+    },
+    "devtools-bidirectional": {
+      "computedHash": "358d3d02010e84286dd5573da7479213ceb0233cf4888b13c3cf689558b9c18f",
+      "source": "@tanstack/devtools-event-client",
+      "sourceType": "node_modules"
+    },
+    "devtools-event-client": {
+      "computedHash": "d1ac0210791b3d624a438726d6b8a98a14d857ed16adb36143685865ec95260e",
+      "source": "@tanstack/devtools-event-client",
+      "sourceType": "node_modules"
+    },
+    "devtools-instrumentation": {
+      "computedHash": "86528903c0c7859479d98f6d23d58bc075912821c385160062657058efb779d5",
+      "source": "@tanstack/devtools-event-client",
+      "sourceType": "node_modules"
+    },
+    "devtools-marketplace": {
+      "computedHash": "238e35677ee7b76c07b7cb0b397c4a7fa8bc1a7484e063c54c7d8ce27181510c",
+      "source": "@tanstack/devtools",
+      "sourceType": "node_modules"
+    },
+    "devtools-plugin-panel": {
+      "computedHash": "cc827b7b1c06468a1ad5c76ebac4fdb4dde4835ee040dd8262360422bd420a1b",
+      "source": "@tanstack/devtools",
+      "sourceType": "node_modules"
+    },
+    "devtools-production": {
+      "computedHash": "4d15c57d98254058964ee340de9516e86e30edd0232d74df618224612dee7ba2",
+      "source": "@tanstack/devtools",
+      "sourceType": "node_modules"
+    },
+    "devtools-vite-plugin": {
+      "computedHash": "243ab52746d0f3ab4062b108cff4f81e358d3787b8153f8ef84693c3f7c9fbd8",
+      "source": "@tanstack/devtools-vite",
+      "sourceType": "node_modules"
+    },
+    "dotenv": {
+      "computedHash": "7580a9737aebb75d98d174bed9b3545586db2d3a112f0fe69c8b79eecfd5ce99",
+      "source": "dotenv",
+      "sourceType": "node_modules"
+    },
+    "dotenvx": {
+      "computedHash": "851072ff03649019eeadb9780b87eacdc3e0b39b8407105354144f692ebc699b",
+      "source": "dotenv",
+      "sourceType": "node_modules"
+    },
+    "email-and-password-best-practices": {
+      "computedHash": "747d7f73bd9e2ec5317b8ef88dc70f97df716d00e3d02de4051feebaa48b062d",
+      "skillPath": "better-auth/emailAndPassword/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
+    },
+    "internal-dev-workbench": {
+      "computedHash": "0a95e27fa15772abf98de088375a0f84ab8f183b577b2120903698406ce90bc5",
+      "skillPath": "skills/internal-dev-workbench/SKILL.md",
+      "source": "vercel/workflow",
+      "sourceType": "github"
+    },
+    "organization-best-practices": {
+      "computedHash": "79a5a85b43d10e9fe37582b3506b051a33a991817b938f349099baa5ddba21aa",
+      "skillPath": "better-auth/organization/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
+    },
+    "react-start": {
+      "computedHash": "a4adb1522284abd067f9761d9f1c3b855d97e092dfea93af5df420617e566669",
+      "source": "@tanstack/react-start",
+      "sourceType": "node_modules"
+    },
+    "router-core": {
+      "computedHash": "68e501f94842cf1199fd07a38b138589b2f460507c928c0277f865f532c9e353",
+      "source": "@tanstack/router-core",
+      "sourceType": "node_modules"
+    },
+    "router-plugin": {
+      "computedHash": "4618dd334d7cff3357cec0e1cb8e8c7e82be5ffae47d9d3f15f05380f2512be9",
+      "source": "@tanstack/router-plugin",
+      "sourceType": "node_modules"
+    },
+    "shadcn": {
+      "computedHash": "ac9d0d69caac7de1d1e5647f3db3bcd2f13af355d6b3a78780fbf7fc80e8dca0",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "source": "shadcn/ui",
+      "sourceType": "github"
+    },
+    "start-core": {
+      "computedHash": "f8593251a7302d577088cd47fe9b294cfb239880ea55e03350f8c36bc56e61c8",
+      "source": "@tanstack/start-client-core",
+      "sourceType": "node_modules"
+    },
+    "start-server-core": {
+      "computedHash": "a9248b0735b9ad29fa707d87daa9fc55e0b6c8f3a1581370f06c3a3d1f297ed1",
+      "source": "@tanstack/start-server-core",
+      "sourceType": "node_modules"
+    },
+    "supabase": {
+      "computedHash": "d414d598b9428b3e851c4ce61898649906b19e55aa7415bb42a286bd9ca2ab32",
+      "skillPath": "skills/supabase/SKILL.md",
+      "source": "supabase/agent-skills",
+      "sourceType": "github"
+    },
+    "supabase-postgres-best-practices": {
+      "computedHash": "0d2c4857a7d6fdcd3fbc46e458fa4c497f029cab89a01548b3defce203003932",
+      "skillPath": "skills/supabase-postgres-best-practices/SKILL.md",
+      "source": "supabase/agent-skills",
+      "sourceType": "github"
+    },
+    "two-factor-authentication-best-practices": {
+      "computedHash": "7e297aaf887e11fdc03e52bdbf44974e161e8f7c393170ced7dc66cace4f6d46",
+      "skillPath": "better-auth/twoFactor/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
+    },
+    "vercel-composition-patterns": {
+      "computedHash": "575757e3e25761c8c562d6e395d29f0b76c98b1273c0bd72d88e6ab1bc9c7d42",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github"
+    },
+    "vercel-react-best-practices": {
+      "computedHash": "ca7b0c0c6e5f2750043f7f0cd72d16ac4e2abc48f9b5500d047a4b77a2506212",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github"
+    },
+    "virtual-file-routes": {
+      "computedHash": "aa6d51e675f35d932406c95c830e93e73f7fe3409471be92f533491ce6b3bb01",
+      "source": "@tanstack/virtual-file-routes",
+      "sourceType": "node_modules"
+    },
+    "web-design-guidelines": {
+      "computedHash": "f3bc47f890f42a44db1007ab390709ec368e4b8c089baee6b0007182236ac474",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github"
+    },
+    "workflow": {
+      "computedHash": "d870ac314303f0b28cfeb8533567ac18df24f6e4d6b874e9f5261b5fddc29210",
+      "skillPath": "skills/workflow/SKILL.md",
+      "source": "vercel/workflow",
+      "sourceType": "github"
+    },
+    "workflow-init": {
+      "computedHash": "e74ed0468589670865a7dc1dcf4f8cd21c3dce164e5caa66d74c5800d70dfe68",
+      "skillPath": "skills/workflow-init/SKILL.md",
+      "source": "vercel/workflow",
+      "sourceType": "github"
+    },
+    "writing-guidelines": {
+      "computedHash": "25aa3a33a97bddbcb1847ce4a6169106ec25e5b19b15b99c66e75ab383866ef2",
+      "skillPath": "skills/writing-guidelines/SKILL.md",
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github"
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "categories": {
+    "correctness": "error",
+    "style": "warn",
+    "suspicious": "error"
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "ignorePatterns": [
+    "src/routeTree.gen.ts",
+    "src/components/ui/**",
+    ".agents/**",
+    "dist/**"
+  ],
+  "options": {
+    "typeAware": true
+  },
+  "overrides": [
+    {
+      "env": {
+        "vitest": true
+      },
+      "files": [
+        "tests/**",
+        "**/*.{test,spec}.{ts,tsx}"
+      ],
+      "plugins": [
+        "vitest"
+      ]
+    },
+    {
+      "env": {
+        "browser": false,
+        "node": true
+      },
+      "files": [
+        "vite.config.ts"
+      ]
+    }
+  ],
+  "plugins": [
+    "eslint",
+    "typescript",
+    "unicorn",
+    "oxc",
+    "react",
+    "import",
+    "jsx-a11y",
+    "vitest"
+  ],
+  "rules": {
+    "import/exports-last": "off",
+    "import/no-named-export": "off",
+    "import/prefer-default-export": "off",
+    "react/react-in-jsx-scope": "off"
+  },
+  "settings": {
+    "jsx-a11y": {
+      "components": {
+        "Button": "button",
+        "Link": "a"
+      }
+    },
+    "react": {
+      "linkComponents": [
+        {
+          "linkAttribute": "to",
+          "name": "Link"
+        }
+      ],
+      "version": "19.2.0"
+    }
+  }
+}

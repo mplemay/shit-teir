@@ -1,0 +1,17 @@
+telemetry = false
+
+[install]
+# only install package versions published at least 7 days ago
+minimumReleaseAge = 259200
+
+[run]
+# equivalent to `bun --bun` for all `bun run` commands
+bun = true
+
+[test]
+# Reduces noise in large test suites by hiding passing tests
+onlyFailures = true
+
+[debug]
+# when navigating to a blob or src link, open the file in your editor
+editor = "hx"

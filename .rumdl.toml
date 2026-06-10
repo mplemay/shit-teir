@@ -1,0 +1,10 @@
+line_length = 120
+
+[per-file-ignores]
+# agents.md links to .agents/skills/*; skill are stored in git, so MD057 would always fail in ci.
+"agents.md" = ["MD057"]
+
+[MD013]
+reflow = true
+code_blocks = false
+tables = false
