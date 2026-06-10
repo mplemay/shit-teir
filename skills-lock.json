@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "skills": {
+    "devtools-app-setup": {
+      "source": "@tanstack/devtools",
+      "sourceType": "node_modules",
+      "computedHash": "0bc14bf17c504669daba30e8a5407b340fe26c7bcd25e987971e3812fae72343"
+    },
+    "devtools-bidirectional": {
+      "source": "@tanstack/devtools-event-client",
+      "sourceType": "node_modules",
+      "computedHash": "358d3d02010e84286dd5573da7479213ceb0233cf4888b13c3cf689558b9c18f"
+    },
+    "devtools-event-client": {
+      "source": "@tanstack/devtools-event-client",
+      "sourceType": "node_modules",
+      "computedHash": "d1ac0210791b3d624a438726d6b8a98a14d857ed16adb36143685865ec95260e"
+    },
+    "devtools-instrumentation": {
+      "source": "@tanstack/devtools-event-client",
+      "sourceType": "node_modules",
+      "computedHash": "86528903c0c7859479d98f6d23d58bc075912821c385160062657058efb779d5"
+    },
+    "devtools-marketplace": {
+      "source": "@tanstack/devtools",
+      "sourceType": "node_modules",
+      "computedHash": "238e35677ee7b76c07b7cb0b397c4a7fa8bc1a7484e063c54c7d8ce27181510c"
+    },
+    "devtools-plugin-panel": {
+      "source": "@tanstack/devtools",
+      "sourceType": "node_modules",
+      "computedHash": "cc827b7b1c06468a1ad5c76ebac4fdb4dde4835ee040dd8262360422bd420a1b"
+    },
+    "devtools-production": {
+      "source": "@tanstack/devtools",
+      "sourceType": "node_modules",
+      "computedHash": "4d15c57d98254058964ee340de9516e86e30edd0232d74df618224612dee7ba2"
+    },
+    "devtools-vite-plugin": {
+      "source": "@tanstack/devtools-vite",
+      "sourceType": "node_modules",
+      "computedHash": "243ab52746d0f3ab4062b108cff4f81e358d3787b8153f8ef84693c3f7c9fbd8"
+    },
+    "dotenv": {
+      "source": "dotenv",
+      "sourceType": "node_modules",
+      "computedHash": "7580a9737aebb75d98d174bed9b3545586db2d3a112f0fe69c8b79eecfd5ce99"
+    },
+    "dotenvx": {
+      "source": "dotenv",
+      "sourceType": "node_modules",
+      "computedHash": "851072ff03649019eeadb9780b87eacdc3e0b39b8407105354144f692ebc699b"
+    },
+    "react-start": {
+      "source": "@tanstack/react-start",
+      "sourceType": "node_modules",
+      "computedHash": "a4adb1522284abd067f9761d9f1c3b855d97e092dfea93af5df420617e566669"
+    },
+    "router-core": {
+      "source": "@tanstack/router-core",
+      "sourceType": "node_modules",
+      "computedHash": "68e501f94842cf1199fd07a38b138589b2f460507c928c0277f865f532c9e353"
+    },
+    "router-plugin": {
+      "source": "@tanstack/router-plugin",
+      "sourceType": "node_modules",
+      "computedHash": "4618dd334d7cff3357cec0e1cb8e8c7e82be5ffae47d9d3f15f05380f2512be9"
+    },
+    "start-core": {
+      "source": "@tanstack/start-client-core",
+      "sourceType": "node_modules",
+      "computedHash": "f8593251a7302d577088cd47fe9b294cfb239880ea55e03350f8c36bc56e61c8"
+    },
+    "start-server-core": {
+      "source": "@tanstack/start-server-core",
+      "sourceType": "node_modules",
+      "computedHash": "a9248b0735b9ad29fa707d87daa9fc55e0b6c8f3a1581370f06c3a3d1f297ed1"
+    },
+    "virtual-file-routes": {
+      "source": "@tanstack/virtual-file-routes",
+      "sourceType": "node_modules",
+      "computedHash": "aa6d51e675f35d932406c95c830e93e73f7fe3409471be92f533491ce6b3bb01"
+    }
+  }
+}
