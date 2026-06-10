@@ -66,6 +66,12 @@
       "sourceType": "node_modules",
       "computedHash": "4618dd334d7cff3357cec0e1cb8e8c7e82be5ffae47d9d3f15f05380f2512be9"
     },
+    "shadcn": {
+      "source": "shadcn/ui",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "computedHash": "ac9d0d69caac7de1d1e5647f3db3bcd2f13af355d6b3a78780fbf7fc80e8dca0"
+    },
     "start-core": {
       "source": "@tanstack/start-client-core",
       "sourceType": "node_modules",
