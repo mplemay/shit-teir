@@ -6,6 +6,24 @@
       "source": "vercel/ai",
       "sourceType": "github"
     },
+    "better-auth-best-practices": {
+      "computedHash": "a4c830509e85557b59339d8d93a4e243e9e59c686e7678854d39230e12c2a6dc",
+      "skillPath": "better-auth/best-practices/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
+    },
+    "better-auth-security-best-practices": {
+      "computedHash": "5717187bba9c22030c7174c74012f01c359f21e2ce87e0eb80e24244d8b8c915",
+      "skillPath": "security/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
+    },
+    "create-auth-skill": {
+      "computedHash": "31c027d02dbf1faa37f58191f574b9443143042fb2b684fe32df53ab0270487c",
+      "skillPath": "better-auth/create-auth/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
+    },
     "devtools-app-setup": {
       "computedHash": "0bc14bf17c504669daba30e8a5407b340fe26c7bcd25e987971e3812fae72343",
       "source": "@tanstack/devtools",
@@ -56,10 +74,22 @@
       "source": "dotenv",
       "sourceType": "node_modules"
     },
+    "email-and-password-best-practices": {
+      "computedHash": "747d7f73bd9e2ec5317b8ef88dc70f97df716d00e3d02de4051feebaa48b062d",
+      "skillPath": "better-auth/emailAndPassword/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
+    },
     "internal-dev-workbench": {
       "computedHash": "0a95e27fa15772abf98de088375a0f84ab8f183b577b2120903698406ce90bc5",
       "skillPath": "skills/internal-dev-workbench/SKILL.md",
       "source": "vercel/workflow",
+      "sourceType": "github"
+    },
+    "organization-best-practices": {
+      "computedHash": "79a5a85b43d10e9fe37582b3506b051a33a991817b938f349099baa5ddba21aa",
+      "skillPath": "better-auth/organization/SKILL.md",
+      "source": "better-auth/skills",
       "sourceType": "github"
     },
     "react-start": {
@@ -92,6 +122,24 @@
       "computedHash": "a9248b0735b9ad29fa707d87daa9fc55e0b6c8f3a1581370f06c3a3d1f297ed1",
       "source": "@tanstack/start-server-core",
       "sourceType": "node_modules"
+    },
+    "supabase": {
+      "computedHash": "d414d598b9428b3e851c4ce61898649906b19e55aa7415bb42a286bd9ca2ab32",
+      "skillPath": "skills/supabase/SKILL.md",
+      "source": "supabase/agent-skills",
+      "sourceType": "github"
+    },
+    "supabase-postgres-best-practices": {
+      "computedHash": "0d2c4857a7d6fdcd3fbc46e458fa4c497f029cab89a01548b3defce203003932",
+      "skillPath": "skills/supabase-postgres-best-practices/SKILL.md",
+      "source": "supabase/agent-skills",
+      "sourceType": "github"
+    },
+    "two-factor-authentication-best-practices": {
+      "computedHash": "7e297aaf887e11fdc03e52bdbf44974e161e8f7c393170ced7dc66cace4f6d46",
+      "skillPath": "better-auth/twoFactor/SKILL.md",
+      "source": "better-auth/skills",
+      "sourceType": "github"
     },
     "vercel-composition-patterns": {
       "computedHash": "575757e3e25761c8c562d6e395d29f0b76c98b1273c0bd72d88e6ab1bc9c7d42",
