@@ -46,10 +46,13 @@
   "private": true,
   "scripts": {
     "build": "vite build",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:pull": "drizzle-kit pull",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
     "dev": "vite dev --port 3000",
     "lint": "prek run --all-files",
-    "oxfmt": "oxfmt",
-    "oxlint": "oxlint",
     "preview": "vite preview",
     "test": "vitest run"
   },
