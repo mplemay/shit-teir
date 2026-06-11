@@ -1,16 +1,14 @@
-import { SQL } from "bun";
-import { drizzle } from "drizzle-orm/bun-sql";
+import { drizzle } from "drizzle-orm/postgres-js";
+import postgres from "postgres";
 
-import { relations } from "@/lib/db/relations/auth";
-import * as schema from "@/lib/db/schema";
+import { getSslOption } from "@/lib/db/connection";
+import { relations } from "@/lib/db/relations";
+import { schema } from "@/lib/db/schema";
 
-const client = new SQL(process.env.DATABASE_URL!, {
-  ssl: process.env.NODE_ENV !== "development",
+const connectionString = process.env.DATABASE_URL!;
+
+const client = postgres(connectionString, {
+  ssl: getSslOption(connectionString),
 });
 
-export const db = drizzle({
-  client,
-  casing: "snake_case",
-  schema,
-  relations,
-});
+export const db = drizzle({ client, relations, schema });

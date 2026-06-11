@@ -1,0 +1,66 @@
+{
+  "ddl": [
+    {
+      "entityType": "tables",
+      "isRlsEnabled": false,
+      "name": "widgets",
+      "schema": "public"
+    },
+    {
+      "default": "gen_random_uuid()",
+      "dimensions": 0,
+      "entityType": "columns",
+      "generated": null,
+      "identity": null,
+      "name": "id",
+      "notNull": true,
+      "schema": "public",
+      "table": "widgets",
+      "type": "uuid",
+      "typeSchema": null
+    },
+    {
+      "default": null,
+      "dimensions": 0,
+      "entityType": "columns",
+      "generated": null,
+      "identity": null,
+      "name": "display_name",
+      "notNull": true,
+      "schema": "public",
+      "table": "widgets",
+      "type": "text",
+      "typeSchema": null
+    },
+    {
+      "default": "now()",
+      "dimensions": 0,
+      "entityType": "columns",
+      "generated": null,
+      "identity": null,
+      "name": "created_at",
+      "notNull": true,
+      "schema": "public",
+      "table": "widgets",
+      "type": "timestamp with time zone",
+      "typeSchema": null
+    },
+    {
+      "columns": [
+        "id"
+      ],
+      "entityType": "pks",
+      "name": "widgets_pkey",
+      "nameExplicit": false,
+      "schema": "public",
+      "table": "widgets"
+    }
+  ],
+  "dialect": "postgres",
+  "id": "9587bf02-306d-4246-b26f-0048d80bff51",
+  "prevIds": [
+    "00000000-0000-0000-0000-000000000000"
+  ],
+  "renames": [],
+  "version": "8"
+}
